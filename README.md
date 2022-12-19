@@ -152,7 +152,7 @@ Komutu korunan tüm sistem dosyalarını tarar ve bozuk dosyaları %WinDir%\Syst
 sfc /scannnow
 ```
 
-## `DISM`
+## `DISM` (Deployment Image Servicing and Management)
 
 Deployment Image Servicing and Management (DISM) Aracı, Windows görüntünüzü onarmak veya Windows kurulum ortamınızı değiştirmek için Windows'da kullanılabilen yönetici seviyesindeki bir komut satırı yürütülebilir dosyasıdır. .wim, .vhd veya .vhdx biçimlerinde Windows görüntülerini bağlayabilir ve mevcut olarak yüklü Windows işletim sistemindeki sorunları gidermek için kullanılabilir.
 
