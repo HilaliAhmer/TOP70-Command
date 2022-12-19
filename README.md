@@ -86,7 +86,7 @@ powercfg /batteryreport
 
 Tüm dosya uzantılarının ve bunların hangi programla açıldığının listeler.
 ```
-assoc
+assoc .log=txtfile
 ```
 
 ## `chkdsk /f`
