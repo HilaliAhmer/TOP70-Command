@@ -273,26 +273,30 @@ tracert -d 192.168.1.1
 ```
 
 ### Netstat parametreleri
-    -a	 Tüm TCP ve UDP bağlantıları ekrana basar.
-    -e	 Gelen ve giden paket sayısının istatistiklerini görüntüler.
-    -n	 Tüm bağlantıları rakamsal olarak görüntüler.
-    -o	 Tüm bağlantıları PID numarası ve uygulama adına göre listeler.
-    -p	 Bağlantıların kullandığı uygulama ve PID numaralarını ekrana basar.
-    -s	 Kurallara göre istatistiksel verileri ekrana basar.
-    -r	 IP yönlendirme tablosunun içeriğini görüntüler.
+| Komut | Açıklama |
+| :--- | :--- |
+|`-a`|TümTCPveUDPbağlantılarıekranabasar.|
+|`-e`|Gelenvegidenpaketsayısınınistatistiklerinigörüntüler.|
+|`-n`|Tümbağlantılarırakamsalolarakgörüntüler.|
+|`-o`|TümbağlantılarıPIDnumarasıveuygulamaadınagörelisteler.|
+|`-p`|BağlantılarınkullandığıuygulamavePIDnumaralarınıekranabasar.|
+|`-s`|Kurallaragöreistatistikselverileriekranabasar.|
+|`-r`|IPyönlendirmetablosununiçeriğinigörüntüler.|
 
 ### Netstat çıktısında yer alan bağlantı durumlarının anlamları
-    -ESTABLISHED	 Soket bağlantı gerçekleşmiş durumdadır.
-    -SYN_SENT	 Soket bağlantı kurmaya çalışıyordur.
-    -SYN_RECV	 Ağdan bir bağlantı isteği gelmiştir.
-    -FIN_WAIT1	 Soket kapatılmış, bağlantı sonlandırılmak üzeredir.
-    -FIN_WAIT2	 Bağlantı sonlandırılmıştır.Soket karşı ucun bağlantıyı sonlandırmasını beklemektedir.
-    -TIME_WAIT	 Soket kapandıktan sonra gelebilecek paketleri alabilmek için beklemektedir.
-    -CLOSED	 Soket kullanılmamaktadır.
-    -CLOSE_WAIT	 Karşı uç bağlantıyı kapatmıştır.Soketin kapanması beklenmektedir.
-    -LAST_ACK	 Karşı uç bağlantıyı sonlandırmış ve soketi kapatmıştır.Onay beklenmektedir.
-    -LISTEN	 Soket gelebilecek bağlantılar için dinleme konumundadır.
-    -CLOSING	 Yerel ve uzak soketler kapatılmış fakat tüm verilerini göndermemiş durumdadır.Tüm veriler gönderilmeden soketler kapanmaz.
+|Komut|Açıklama|
+|:--- |:---|
+|`-ESTABLISHED`|Soketbağlantıgerçekleşmişdurumdadır.|
+|`-SYN_SENT`	|Soketbağlantıkurmayaçalışıyordur.|
+|`-SYN_RECV`	|Ağdanbirbağlantıisteğigelmiştir.|
+|`-FIN_WAIT1`	|Soketkapatılmış,bağlantısonlandırılmaküzeredir.|
+|`-FIN_WAIT2`|	Bağlantısonlandırılmıştır.Soketkarşıucunbağlantıyısonlandırmasınıbeklemektedir.|
+|`-TIME_WAIT`|	Soketkapandıktansonragelebilecekpaketlerialabilmekiçinbeklemektedir.|
+|`-CLOSED`|	Soketkullanılmamaktadır.|
+|`-CLOSE_WAIT`|	Karşıuçbağlantıyıkapatmıştır.Soketinkapanmasıbeklenmektedir.|
+|`-LAST_ACK`|	Karşıuçbağlantıyısonlandırmışvesoketikapatmıştır.Onaybeklenmektedir.|
+|`-LISTEN`|Soketgelebilecekbağlantılariçindinlemekonumundadır.|
+|`-CLOSING`|	Yerelveuzaksoketlerkapatılmışfakattümverilerinigöndermemişdurumdadır.Tümverilergönderilmedensoketlerkapanmaz.|
 
 ## `route print`
 
