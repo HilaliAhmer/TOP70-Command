@@ -1,6 +1,6 @@
 <p align="center">Windows Top 70 CMD Command</p>
 
-## `ipconfig` \n 
+## `ipconfig`
 
 Ipconfig, DOS işletim sisteminde bilgisayarın ağ bağlantı özelliklerini gösteren komuttur.
 ```ipconfig```
