@@ -156,16 +156,13 @@ sfc /scannnow
 
 Deployment Image Servicing and Management (DISM) Aracı, Windows görüntünüzü onarmak veya Windows kurulum ortamınızı değiştirmek için Windows'da kullanılabilen yönetici seviyesindeki bir komut satırı yürütülebilir dosyasıdır. .wim, .vhd veya .vhdx biçimlerinde Windows görüntülerini bağlayabilir ve mevcut olarak yüklü Windows işletim sistemindeki sorunları gidermek için kullanılabilir.
 
- - /online
-    Çevrimiçi bir görüntüyü değiştirdiğinizi belirtir (taramanın İnternet üzerinden çalıştırılacağını göstermez)
- - /cleanup-image
-    Depolamayla ilgili sorunları giderebilecek daha kapsamlı bir denetimi tetikler
- - /checkhealth
-    Depolamada bozulma algılanıp algılanmadığını görmek için temel denetim başlatır
- - /scanhealth
-    Depolamayı bozulma açısından daha kapsamlı bir şekilde tarar
- - /restorehealth
-    Depoyu bozulma açısından tarar ve bozulan dosyaları onarır
+|Komut|Açıklama|
+|:---|:---|
+|/online|Çevrimiçi bir görüntüyü değiştirdiğinizi belirtir (taramanın İnternet üzerinden çalıştırılacağını göstermez)|
+|/cleanup-image| Depolamayla ilgili sorunları giderebilecek daha kapsamlı bir denetimi tetikler|
+|/checkhealth| Depolamada bozulma algılanıp algılanmadığını görmek için temel denetim başlatır|
+|/scanhealth| Depolamayı bozulma açısından daha kapsamlı bir şekilde tarar|
+|/restorehealth | Depoyu bozulma açısından tarar ve bozulan dosyaları onarır|
 
 ## `DISM /Online /Cleanup /CheckHealth`
 
@@ -275,28 +272,28 @@ tracert -d 192.168.1.1
 ### Netstat parametreleri
 | Komut | Açıklama |
 | :--- | :--- |
-|`-a`|TümTCPveUDPbağlantılarıekranabasar.|
-|`-e`|Gelenvegidenpaketsayısınınistatistiklerinigörüntüler.|
-|`-n`|Tümbağlantılarırakamsalolarakgörüntüler.|
-|`-o`|TümbağlantılarıPIDnumarasıveuygulamaadınagörelisteler.|
-|`-p`|BağlantılarınkullandığıuygulamavePIDnumaralarınıekranabasar.|
-|`-s`|Kurallaragöreistatistikselverileriekranabasar.|
-|`-r`|IPyönlendirmetablosununiçeriğinigörüntüler.|
+ | `-a` | Tüm TCP ve UDP bağlantıları ekrana basar. |
+ | `-e` | Gelen ve giden paket sayısının istatistiklerini görüntüler. |
+ | `-n` | Tüm bağlantıları rakamsal olarak görüntüler. |
+ | `-o` | Tüm bağlantıları PID numarası ve uygulama adına göre listeler. |
+ | `-p` | Bağlantıların kullandığı uygulama ve PID numaralarını ekrana basar. |
+ | `-s` | Kurallara göre istatistiksel verileri ekrana basar. |
+ | `-r` | IP yönlendirme tablosunun içeriğini görüntüler. |
 
 ### Netstat çıktısında yer alan bağlantı durumlarının anlamları
-|Komut|Açıklama|
-|:--- |:---|
-|`-ESTABLISHED`|Soketbağlantıgerçekleşmişdurumdadır.|
-|`-SYN_SENT`	|Soketbağlantıkurmayaçalışıyordur.|
-|`-SYN_RECV`	|Ağdanbirbağlantıisteğigelmiştir.|
-|`-FIN_WAIT1`	|Soketkapatılmış,bağlantısonlandırılmaküzeredir.|
-|`-FIN_WAIT2`|	Bağlantısonlandırılmıştır.Soketkarşıucunbağlantıyısonlandırmasınıbeklemektedir.|
-|`-TIME_WAIT`|	Soketkapandıktansonragelebilecekpaketlerialabilmekiçinbeklemektedir.|
-|`-CLOSED`|	Soketkullanılmamaktadır.|
-|`-CLOSE_WAIT`|	Karşıuçbağlantıyıkapatmıştır.Soketinkapanmasıbeklenmektedir.|
-|`-LAST_ACK`|	Karşıuçbağlantıyısonlandırmışvesoketikapatmıştır.Onaybeklenmektedir.|
-|`-LISTEN`|Soketgelebilecekbağlantılariçindinlemekonumundadır.|
-|`-CLOSING`|	Yerelveuzaksoketlerkapatılmışfakattümverilerinigöndermemişdurumdadır.Tümverilergönderilmedensoketlerkapanmaz.|
+| Komut | Açıklama |
+| :--- | :--- |
+|`ESTABLISHED`|Soket bağlantı gerçekleşmiş durumdadır.|
+| `SYN_SENT`	 |Soket bağlantı kurmaya çalışıyordur.|
+| `SYN_RECV`	| Ağdan bir bağlantı isteği gelmiştir.|
+| `FIN_WAIT1`	| Soket kapatılmış, bağlantı sonlandırılmak üzeredir.|
+| `FIN_WAIT2` |	 Bağlantı sonlandırılmıştır.Soket karşı ucun bağlantıyı sonlandırmasını beklemektedir.|
+| `TIME_WAIT` |	 Soket kapandıktan sonra gelebilecek paketleri alabilmek için beklemektedir.|
+| `CLOSED` |	 Soket kullanılmamaktadır.|
+| `CLOSE_WAIT` |	 Karşı uç bağlantıyı kapatmıştır.Soketin kapanması beklenmektedir.|
+| `LAST_ACK` |	 Karşı uç bağlantıyı sonlandırmış ve soketi kapatmıştır.Onay beklenmektedir.|
+| `LISTEN` | Soket gelebilecek bağlantılar için dinleme konumundadır.|
+| `CLOSING` |	 Yerel ve uzak soketler kapatılmış fakat tüm verilerini göndermemiş durumdadır.Tüm veriler gönderilmeden soketler kapanmaz.|
 
 ## `route print`
 
