@@ -1,4 +1,4 @@
-<p align="center">Top 70 CMD Command</p>
+<p align="center">Windows Top 70 CMD Command</p>
 
 ## `ipconfig`
 
