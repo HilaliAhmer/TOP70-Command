@@ -1,206 +1,206 @@
-<!doctype html>
-<html lang="en">
+<p align="center">Top 70 CMD Command</p>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
-</head>
+## `ipconfig`
 
-<body>
-    <div class="card">
-        <!-- Nav -->
-        <div class="card-header">
-            TOP 70 Command List
-        </div>
+Ipconfig, DOS işletim sisteminde bilgisayarın ağ bağlantı özelliklerini gösteren komuttur.
 
-        <!-- Content -->
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        ipconfig
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Ipconfig, DOS işletim sisteminde bilgisayarın ağ bağlantı özelliklerini gösteren
-                komuttur.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        ipconfig /all
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                şeklinde kullanıldığında ağ bağlantısı özellikleri daha ayrıntılı görülebilir. /all
-                parametresiyle birlikte kullanıldığında bilgisayarın MAC adresi de ekrana basılır.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        ipconfig /release
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                ipconfig /release dhcp'den dagıtılan ip adresini geri bırakır.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        ipconfig /renew
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                ipconfig /release dhcp'den dagıtılan ip adresini geri bırakır.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        ipconfig /displaydns
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Bu seçenekler, Windows'un sahip olduğu yerel bir DNS önbelleğine erişir. /Displaydns komutu önbelleğin
-                içeriğini ekrana yazdırmak için kullanılırken, /flushdns ise seçeneğin (önbelleğini) içeriğini siler.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        ipconfig /flushdns
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                ipconfig /flushdns dns bellegini temizler.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        clip
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Clip komutu , komut satırı araçlarının çıktısını Windows panosuna yönlendirir. Bu metin çıktısı daha
-                sonra diğer programlara yapıştırılabilir.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        nslookup
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                NSlookup komutu, bir sayfanın TCP/IP numarasını bulunmasına yardımcı olur.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        cls
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                CMD ekranını temizlemeye yarayan komuttur.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        getmac /v
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Yerel olarak veya bir ağ üzerinden her bilgisayardaki tüm ağ kartları için ortam erişim denetimi (MAC)
-                adresini ve her adresle ilişkili ağ protokollerinin listesini döndürür.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        powercfg /energy
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Bilgisayarınızın davranışını altmış saniye boyunca gözlemleyecek ve ardından mevcut sistem durumunuzun
-                ne kadar güç açısından verimli olduğu hakkında bilgiler içeren bir HTML raporu oluşturacaktır.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        powercfg /batteryreport
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Mevcut pilinizin gerçek kapasitesi ve kapasitesi ile pil ömrünün zaman içinde nasıl azaldığı hakkında bilgiler dahildir.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">
-                <samp>
-                    <kbd>
-                        powercfg /batteryreport
-                    </kbd>
-                </samp>
-            </h5>
-            <p class="card-text">
-                Mevcut pilinizin gerçek kapasitesi ve kapasitesi ile pil ömrünün zaman içinde nasıl azaldığı hakkında bilgiler dahildir.
-            </p>
-            <hr style="border-top: 2px solid currentcolor;">
-        </div>
+## `ipconfig /all`
 
+şeklinde kullanıldığında ağ bağlantısı özellikleri daha ayrıntılı görülebilir. /all parametresiyle birlikte kullanıldığında bilgisayarın MAC adresi de ekrana basılır.
 
+## `ipconfig /release`
 
+ipconfig /release dhcp'den dagıtılan ip adresini geri bırakır.
 
-        <!-- Footer -->
-        <div class="card-footer text-muted">
-            <p><time datetime="2022-12-19"> 19 Aralık 2022</time> tarihinde kaydedildi.</p>
-        </div>
-    </div>
-</body>
+## `ipconfig /renew`
 
-</html>
+ipconfig /renew dhcp'den dagıtılan yeni ip adresi almaya yarar.
+
+## `ipconfig /displaydns`
+
+Bu seçenekler, Windows'un sahip olduğu yerel bir DNS önbelleğine erişir. /Displaydns komutu önbelleğin içeriğini ekrana yazdırmak için kullanılırken, /flushdns ise seçeneğin (önbelleğini) içeriğini siler.
+
+## `clip`
+
+Clip komutu , komut satırı araçlarının çıktısını Windows panosuna yönlendirir. Bu metin çıktısı daha sonra diğer programlara yapıştırılabilir.
+
+## `ipconfig /flushdns`
+
+ipconfig /flushdns dns bellegini temizler.
+
+## `nslookup`
+
+NSlookup komutu, bir sayfanın TCP/IP numarasını bulunmasına yardımcı olur.
+
+## `cls`
+
+CMD ekranını temizlemeye yarayan komuttur.
+
+## `getmac /v`
+
+Mac adreslerini getirmeye yaran komut.
+
+## `powercfg /energy`
+
+Bilgisayarınızın davranışını altmış saniye boyunca gözlemleyecek ve ardından mevcut sistem durumunuzun ne kadar güç açısından verimli olduğu hakkında bilgiler içeren bir HTML raporu oluşturacaktır.
+
+## `powercfg /batteryreport`
+
+Mevcut pilinizin gerçek kapasitesi ve kapasitesi ile pil ömrünün zaman içinde nasıl azaldığı hakkında bilgiler dahildir.
+
+## `assoc`
+
+Tüm dosya uzantılarının ve bunların hangi programla açıldığının listeler.
+
+## `chkdsk /f`
+
+Diskteki hataları düzeltir. Disk kilitlenmelidir. CHKDSK sürücüyü kilitleyemezse, bilgisayarı bir sonraki yeniden başlatışınızda sürücüyü kontrol etmek isteyip istemediğinizi soran bir mesaj görüntülenir.
+
+## `chkdsk /r`
+
+Bozuk sektörleri bulur ve okunabilir bilgileri kurtarır. Disk kilitlenmelidir. Fiziksel disk hatalarının ek analiziyle birlikte / f işlevini içerir.
+
+## `chkdsk /x`
+
+Gerekirse önce birimi kaldırmaya zorlar. Sürücünün tüm açık tutamaçları geçersiz kılınmıştır. Ayrıca / f işlevini de içerir.
+
+## `chkdsk /b`
+
+Yalnızca NTFS içindir. Birimdeki bozuk kümeler listesini temizler ve tüm ayrılmış ve boş kümeleri hatalar için yeniden tarar.  / r işlevini içerir. Bir birimi yeni bir sabit disk sürücüsüne imajladıktan sonra bu parametreyi kullanın.
+
+## `chkdsk /v`
+
+Disk kontrol edilirken her dizindeki her dosyanın adını görüntüler.
+
+## `chkdsk /scan`
+
+yalnızca NTFS içindir. Birimde çevrimiçi bir tarama çalıştırır.
+
+## `chkdsk /i`
+
+Yalnızca NTFS içindir. CHKDSK'yi çalıştırmak için gereken süreyi azaltan dizin girişlerini daha yüzeysel bir şekilde kontrol eder.
+
+## `chkdsk /c`
+
+Yalnızca NTFS içindir. Klasör yapısı içindeki döngüleri kontrol etmez, bu da CHKDSK'yi çalıştırmak için gereken süreyi azaltır.
+
+## `sfc /scannnow`  (System File Checker)
+
+Komutu korunan tüm sistem dosyalarını tarar ve bozuk dosyaları %WinDir%\System32\dllcache dizinindeki bir sıkıştırılmış klasörde bulunan önbelleğe alınmış kopyasıyla değiştirir. %WinDir% yer tutucu, Windows işletim sistemi klasörünü gösterir. Örneğin, C:\Windows.
+
+## `DISM`
+
+Deployment Image Servicing and Management (DISM) Aracı, Windows görüntünüzü onarmak veya Windows kurulum ortamınızı değiştirmek için Windows'da kullanılabilen yönetici seviyesindeki bir komut satırı yürütülebilir dosyasıdır. .wim, .vhd veya .vhdx biçimlerinde Windows görüntülerini bağlayabilir ve mevcut olarak yüklü Windows işletim sistemindeki sorunları gidermek için kullanılabilir.
+
+ - /online
+    Çevrimiçi bir görüntüyü değiştirdiğinizi belirtir (taramanın İnternet üzerinden çalıştırılacağını göstermez)
+ - /cleanup-image
+    Depolamayla ilgili sorunları giderebilecek daha kapsamlı bir denetimi tetikler
+ - /checkhealth
+    Depolamada bozulma algılanıp algılanmadığını görmek için temel denetim başlatır
+ - /scanhealth
+    Depolamayı bozulma açısından daha kapsamlı bir şekilde tarar
+ - /restorehealth
+    Depoyu bozulma açısından tarar ve bozulan dosyaları onarır
+
+## `DISM /Online /Cleanup /CheckHealth`
+
+Bu komut depolamada bozulma olup olmadığını anlamamız için temel bir denetim başlatır.
+
+## `DISM /Online /Cleanup /ScanHealth`
+
+Bu komut depolamayı bozulma açısından daha kapsamlı bir biçimde tarayıp sonuçları önümüze serer.
+
+## `DISM /Online /Cleanup /RestoreHealth`
+
+Bu komut bileşen deposunu bozulma açısından tarar ve bulduğu bozuk dosyaları onarır.
+
+## `tasklist`
+
+Çalışan tüm task listleri getirir. ÖRN: tasklist | findstr chrome
+
+## `taskkill`
+
+tasklist ile listelenen tasklardaki pin numaraları kullanılarak istenilen task sonlandırılır. ÖRN: taskkill /f /pin 20184
+
+## `netsh wlan show wlanreport`
+
+Bu, sık kullandığınız Web tarayıcınızda açabileceğiniz bir HTML dosyası olarak kaydedilmiş bir kablosuz ağ raporu oluşturur. Rapor son üç günün tüm Wi-Fi olaylarını gösterir ve bu olayları Wi-Fi bağlantısı oturumlarına göre gruplandırır. Ayrıca, ağla ilgili birkaç komut satırı komut dosyasının sonuçlarını ve bilgisayarınızdaki tüm ağ bağdaştırıcılarının listesini gösterir.
+
+## `netsh interface show interface`
+
+Kullanılan tüm interfaceleri görüntüler
+
+## `netsh interface ip show address | findstr “IP Address”`
+
+İnterfacelerin aldığı tüm ip adreslerini gösterir.
+
+## `netsh interface ip show dnsservers`
+
+interfacelerin kullandığı dns serverları gösterir
+
+## `netsh advfirewall set allprofiles state off`
+
+Windows'da kullanılan tüm firewall kurallarını kapatır
+
+## `netsh advfirewall set allprofiles state on`
+
+Windows'da kullanılan tüm firewall kurallarını açar
+
+## `ping`
+
+Belirli bir ip adresine yada dns'e  ping paketleri gönderir.
+
+## `ping -t`
+
+Belirli bir ip adresine yada dns'e  sınırsız ping paketleri gönderir.
+
+## `tracert`
+
+Belirli bir ip adresine yada dns'e giden yolu bulur
+
+## `tracert -d`
+
+Belirli bir ip adresine yada dns'e dns adreslerini çözümlemeden gider. Hızlıdır.
+
+### Netstat parametreleri
+    -a	 Tüm TCP ve UDP bağlantıları ekrana basar.
+    -e	 Gelen ve giden paket sayısının istatistiklerini görüntüler.
+    -n	 Tüm bağlantıları rakamsal olarak görüntüler.
+    -o	 Tüm bağlantıları PID numarası ve uygulama adına göre listeler.
+    -p	 Bağlantıların kullandığı uygulama ve PID numaralarını ekrana basar.
+    -s	 Kurallara göre istatistiksel verileri ekrana basar.
+    -r	 IP yönlendirme tablosunun içeriğini görüntüler.
+
+### Netstat çıktısında yer alan bağlantı durumlarının anlamları
+    -ESTABLISHED	 Soket bağlantı gerçekleşmiş durumdadır.
+    -SYN_SENT	 Soket bağlantı kurmaya çalışıyordur.
+    -SYN_RECV	 Ağdan bir bağlantı isteği gelmiştir.
+    -FIN_WAIT1	 Soket kapatılmış, bağlantı sonlandırılmak üzeredir.
+    -FIN_WAIT2	 Bağlantı sonlandırılmıştır.Soket karşı ucun bağlantıyı sonlandırmasını beklemektedir.
+    -TIME_WAIT	 Soket kapandıktan sonra gelebilecek paketleri alabilmek için beklemektedir.
+    -CLOSED	 Soket kullanılmamaktadır.
+    -CLOSE_WAIT	 Karşı uç bağlantıyı kapatmıştır.Soketin kapanması beklenmektedir.
+    -LAST_ACK	 Karşı uç bağlantıyı sonlandırmış ve soketi kapatmıştır.Onay beklenmektedir.
+    -LISTEN	 Soket gelebilecek bağlantılar için dinleme konumundadır.
+    -CLOSING	 Yerel ve uzak soketler kapatılmış fakat tüm verilerini göndermemiş durumdadır.Tüm veriler gönderilmeden soketler kapanmaz.
+
+## `route print`
+
+Local routelarınızı listeler.
+
+## `route add`
+
+Local route ekler
+
+## `route delete`
+
+Eklenen routeleri siler
+
+## `shutdown /r /fw /f /t 0`
+
+Bilgisayarınızı yeniden başlatır açılışta biosa düşer.
+
+## `shutdown /i	`
+
+Uzaktan kapama-restart etme işlemleri için bir yardımcı arayüz açar
