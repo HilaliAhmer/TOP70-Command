@@ -5,6 +5,10 @@
 Ipconfig, DOS işletim sisteminde bilgisayarın ağ bağlantı özelliklerini gösteren komuttur.
 ```ipconfig```
 
+```
+`git clone https://github.com/HilaliAhmer/PasswordManager.git "C:\inetpub\wwwroot\PasswordManager"`
+```
+
 ## `ipconfig /all`
 
 şeklinde kullanıldığında ağ bağlantısı özellikleri daha ayrıntılı görülebilir. /all parametresiyle birlikte kullanıldığında bilgisayarın MAC adresi de ekrana basılır.
